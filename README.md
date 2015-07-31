@@ -9,6 +9,8 @@ It performs a single pass of depth-first search. It maintains a stack of vertice
 It is trivial to write algorithms to detect cycles in a graph, but most approaches prove highly impractical due to the immense time and storage they require to complete the computation. Tarjan's algorithm is one of the precious few that is able to compute strongly connected components in linear time (time increases linearly with the number of vertices and edges).
 The others include Kosaraju's algorithm and the path-based strong component algorithm (Purdo, Munro, Dijkstra, Cheriyan & Mehlhorn, Gabow). Although Kosaraju's algorithm is conceptually simple, Tarjan's and the path-based algorithm are favoured in practice since they require only one depth-first search rather than two.
 
-The PHP implementation of Tarjan's algorithm below has been composed and tuned after much reading, trial and error, and peeking at implementations in numerous other programming languages. Special thanks to Jan van der Linde [@janvdl](https://github.com/janvdl) for helpful remarks and code snippets from his Python implementation.
+The PHP implementation of Tarjan's algorithm below has been composed and tuned after much reading, trial and error, and peeking at implementations in numerous other programming languages. Special thanks to Jan van der Linde ([@janvdl](https://github.com/janvdl)) for helpful remarks and code snippets from his Python implementation.
 
-For more information and live demo, see [vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm](https://vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm).
+## More information and live demo
+
+[https://vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm](https://vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm)
