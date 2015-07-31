@@ -1,5 +1,4 @@
 <?php
-
 /*
  * Array $G is to contain the graph in node-adjacency format.
  */
@@ -30,6 +29,7 @@ $G[] = array(10); // This is a self-cycle (aka "loop").
  * 1|0
  */
 $cycles = php_tarjan_entry($G);
+echo '<p>Cycles found: '.count($cycles);
 echo '<pre>'; print_r($cycles); echo '</pre>';
 
 /*
@@ -118,3 +118,5 @@ function php_tarjan($s, $v){
   array_pop($point_stack);
   return $f;
 }
+
+?>
