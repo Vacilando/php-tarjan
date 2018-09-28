@@ -13,4 +13,4 @@ The PHP implementation of Tarjan's algorithm below has been composed and tuned a
 
 ## More information and live demo
 
-[https://vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm](https://vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm)
+[http://www.vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm](https://vacilando.org/article/php-implementation-tarjans-cycle-detection-algorithm)
