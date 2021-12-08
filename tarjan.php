@@ -49,7 +49,6 @@ function php_tarjan_entry($G_local){
   $marked_stack = array();
   $point_stack = array();
 
-  $marked = array();
   for ($x = 0; $x < count($G_local); $x++) {
     $marked[$x] = FALSE;
   }
